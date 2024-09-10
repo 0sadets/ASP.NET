@@ -1,0 +1,469 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Intro_to_ASP.NET.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Intro_to_ASP.NET.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\10.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\11.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\12.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\13.jpg",
+      "PackagePath": "staticwebassets\\images\\13.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\14.jpg",
+      "PackagePath": "staticwebassets\\images\\14.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\15.jpg",
+      "PackagePath": "staticwebassets\\images\\15.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\16.jpg",
+      "PackagePath": "staticwebassets\\images\\16.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\17.jpg",
+      "PackagePath": "staticwebassets\\images\\17.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\18.jpg",
+      "PackagePath": "staticwebassets\\images\\18.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\19.jpg",
+      "PackagePath": "staticwebassets\\images\\19.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\20.jpg",
+      "PackagePath": "staticwebassets\\images\\20.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\21.jpg",
+      "PackagePath": "staticwebassets\\images\\21.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\22.jpg",
+      "PackagePath": "staticwebassets\\images\\22.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\23.jpg",
+      "PackagePath": "staticwebassets\\images\\23.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\24.jpg",
+      "PackagePath": "staticwebassets\\images\\24.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\25.jpg",
+      "PackagePath": "staticwebassets\\images\\25.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\26.jpg",
+      "PackagePath": "staticwebassets\\images\\26.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\27.jpg",
+      "PackagePath": "staticwebassets\\images\\27.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\28.jpg",
+      "PackagePath": "staticwebassets\\images\\28.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\29.jpg",
+      "PackagePath": "staticwebassets\\images\\29.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\30.jpg",
+      "PackagePath": "staticwebassets\\images\\30.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\31.jpg",
+      "PackagePath": "staticwebassets\\images\\31.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\32.jpg",
+      "PackagePath": "staticwebassets\\images\\32.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\33.jpg",
+      "PackagePath": "staticwebassets\\images\\33.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\34.jpg",
+      "PackagePath": "staticwebassets\\images\\34.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\35.jpg",
+      "PackagePath": "staticwebassets\\images\\35.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\36.jpg",
+      "PackagePath": "staticwebassets\\images\\36.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\37.jpg",
+      "PackagePath": "staticwebassets\\images\\37.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\38.jpg",
+      "PackagePath": "staticwebassets\\images\\38.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\39.jpg",
+      "PackagePath": "staticwebassets\\images\\39.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\4.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\40.jpg",
+      "PackagePath": "staticwebassets\\images\\40.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\41.jpg",
+      "PackagePath": "staticwebassets\\images\\41.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\42.jpg",
+      "PackagePath": "staticwebassets\\images\\42.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\43.jpg",
+      "PackagePath": "staticwebassets\\images\\43.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\44.jpg",
+      "PackagePath": "staticwebassets\\images\\44.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\45.jpg",
+      "PackagePath": "staticwebassets\\images\\45.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\46.jpg",
+      "PackagePath": "staticwebassets\\images\\46.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\47.jpg",
+      "PackagePath": "staticwebassets\\images\\47.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\48.jpg",
+      "PackagePath": "staticwebassets\\images\\48.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\49.jpg",
+      "PackagePath": "staticwebassets\\images\\49.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\5.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\50.jpg",
+      "PackagePath": "staticwebassets\\images\\50.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\51.jpg",
+      "PackagePath": "staticwebassets\\images\\51.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\6.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\7.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\8.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\images\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\9.jpg"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Intro_to_ASP.NET.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Intro_to_ASP.NET.props",
+      "PackagePath": "build\\Intro_to_ASP.NET.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Intro_to_ASP.NET.props",
+      "PackagePath": "buildMultiTargeting\\Intro_to_ASP.NET.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Intro_to_ASP.NET.props",
+      "PackagePath": "buildTransitive\\Intro_to_ASP.NET.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

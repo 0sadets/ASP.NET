@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|d:\\step\\asp.net\\asp.net\\intro_to_asp.net\\intro_to_asp.net\\views\\home\\galery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|solutionrelative:intro_to_asp.net\\views\\home\\galery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|d:\\step\\asp.net\\asp.net\\intro_to_asp.net\\intro_to_asp.net\\views\\home\\lifestory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|solutionrelative:intro_to_asp.net\\views\\home\\lifestory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|d:\\step\\asp.net\\asp.net\\intro_to_asp.net\\intro_to_asp.net\\views\\home\\facts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|solutionrelative:intro_to_asp.net\\views\\home\\facts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|d:\\step\\asp.net\\asp.net\\intro_to_asp.net\\intro_to_asp.net\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|solutionrelative:intro_to_asp.net\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|d:\\step\\asp.net\\asp.net\\intro_to_asp.net\\intro_to_asp.net\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|solutionrelative:intro_to_asp.net\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|d:\\step\\asp.net\\asp.net\\intro_to_asp.net\\intro_to_asp.net\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|solutionrelative:intro_to_asp.net\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|d:\\step\\asp.net\\asp.net\\intro_to_asp.net\\intro_to_asp.net\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|solutionrelative:intro_to_asp.net\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|d:\\step\\asp.net\\asp.net\\intro_to_asp.net\\intro_to_asp.net\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|solutionrelative:intro_to_asp.net\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|d:\\step\\asp.net\\asp.net\\intro_to_asp.net\\intro_to_asp.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0375D0F8-E20A-4CD9-87BA-A57886452617}|Intro_to_ASP.NET\\Intro_to_ASP.NET.csproj|solutionrelative:intro_to_asp.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 815,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LifeStory.cshtml",
+              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Views\\Home\\LifeStory.cshtml",
+              "RelativeDocumentMoniker": "Intro_to_ASP.NET\\Views\\Home\\LifeStory.cshtml",
+              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Views\\Home\\LifeStory.cshtml",
+              "RelativeToolTip": "Intro_to_ASP.NET\\Views\\Home\\LifeStory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T15:17:41.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Intro_to_ASP.NET\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Intro_to_ASP.NET\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T14:23:10.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Intro_to_ASP.NET\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Intro_to_ASP.NET\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T13:24:32.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Intro_to_ASP.NET\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Intro_to_ASP.NET\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T13:23:50.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Intro_to_ASP.NET\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Intro_to_ASP.NET\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T13:23:48.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Galery.cshtml",
+              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Views\\Home\\Galery.cshtml",
+              "RelativeDocumentMoniker": "Intro_to_ASP.NET\\Views\\Home\\Galery.cshtml",
+              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Views\\Home\\Galery.cshtml*",
+              "RelativeToolTip": "Intro_to_ASP.NET\\Views\\Home\\Galery.cshtml*",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAHYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T13:22:58.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Facts.cshtml",
+              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Views\\Home\\Facts.cshtml",
+              "RelativeDocumentMoniker": "Intro_to_ASP.NET\\Views\\Home\\Facts.cshtml",
+              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Views\\Home\\Facts.cshtml",
+              "RelativeToolTip": "Intro_to_ASP.NET\\Views\\Home\\Facts.cshtml",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAAIYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T13:22:40.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Program.cs",
+              "RelativeDocumentMoniker": "Intro_to_ASP.NET\\Program.cs",
+              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Program.cs",
+              "RelativeToolTip": "Intro_to_ASP.NET\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T12:50:32.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Intro_to_ASP.NET\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Intro_to_ASP.NET\\Intro_to_ASP.NET\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Intro_to_ASP.NET\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T12:47:44.525Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
