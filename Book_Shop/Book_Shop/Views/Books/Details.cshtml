@@ -1,0 +1,26 @@
+﻿@model Book_Shop.Models.Book
+
+
+<div class="card text-center">
+    <div class="card-header">
+        <h1>Book Detail Information</h1>
+    </div>
+    <div class="card-body">
+        <h5 class="card-title mb-5">@Model.Title</h5>
+        <div class="d-flex flex-row justify-content-around">
+            <div class=" d-flex flex-column align-items-start">
+                <p><b>Description:</b> @Model.Description</p>
+                <p><b>Author:</b> @Model.Author</p>
+                <p><b>Price:</b> @Model.Price &#8372</p>
+                <p><b>Year:</b> @Model.Year</p>
+                <p><b>Publisher:</b> @Model.Publisher</p>
+                <p><b>Genre:</b> @Model.Genre</p>
+                <p><b>Number Of Pages:</b> @Model.NumberOfPages</p>
+            </div>
+            <img class="w-25 border border-1"  src="@Model.ImagePath"/>
+
+        </div>
+
+        <a asp-action="Index" class="btn  btn-outline-secondary" style="width: 140px">Back</a>
+    </div>
+</div>

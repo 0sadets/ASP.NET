@@ -1,0 +1,26 @@
+﻿@model List<Book_Shop.Models.Book>
+
+<h1>Book List</h1>
+@if (Model.Any())
+{
+	<p>Count of Books: @Model.Count</p>
+	<div class="row row-cols-1 row-cols-md-4 g-4">
+		@foreach(var book in Model)
+		{
+            <div class="col">
+                <div class="card d-flex flex-column justify-content-between" >
+
+                    <img src="@book.ImagePath" class="card-img-top " style="width: 250px; height: 400px" alt="..."> 
+                    <div class="card-body">
+                        <h5 class="card-title">@book.Title</h5>
+                        <p class="card-text">
+                            @book.Author
+                            <span class="badge text-bg-primary"> grn</span>
+                        </p>
+                        <a asp-action="Details" asp-route-id="@book.Id" class="btn btn-dark">Show Details</a> 
+                    </div>
+                </div>
+            </div>
+        }
+	</div>
+}
