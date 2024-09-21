@@ -1,4 +1,4 @@
-﻿@model Book_Shop.Models.Book
+﻿@model DataAccess.Entities.Book
 
 
 <div class="card text-center">
@@ -10,11 +10,11 @@
         <div class="d-flex flex-row justify-content-around">
             <div class=" d-flex flex-column align-items-start">
                 <p><b>Description:</b> @Model.Description</p>
-                <p><b>Author:</b> @Model.Author</p>
-                <p><b>Price:</b> @Model.Price &#8372</p>
+                <p><b>Author:</b> @Model.Author.FirstName @Model.Author.LastName</p>
+                <p><b>Price:</b> @Model.PaperPrice &#8372</p>
                 <p><b>Year:</b> @Model.Year</p>
-                <p><b>Publisher:</b> @Model.Publisher</p>
-                <p><b>Genre:</b> @Model.Genre</p>
+                <p><b>Publisher:</b> @Model.Publisher.PublisherName</p>
+                <p><b>Genre:</b> @Model.Category.CategoryName</p>
                 <p><b>Number Of Pages:</b> @Model.NumberOfPages</p>
             </div>
             <img class="w-25 border border-1"  src="@Model.ImagePath"/>
