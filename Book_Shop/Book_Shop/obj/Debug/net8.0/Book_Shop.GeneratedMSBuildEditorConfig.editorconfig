@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Step/ASP.NET/ASP.NET/Book_Shop/Book_Shop/Views/Books/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Step/ASP.NET/ASP.NET/Book_Shop/Book_Shop/Views/Books/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

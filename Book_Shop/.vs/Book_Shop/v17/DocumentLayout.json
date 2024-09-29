@@ -3,40 +3,43 @@
   "WorkspaceRootPath": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B86BF819-68EA-4F01-AE84-1EDDB7F186FF}|Book_Shop\\Book_Shop.csproj|d:\\step\\asp.net\\asp.net\\book_shop\\book_shop\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B86BF819-68EA-4F01-AE84-1EDDB7F186FF}|Book_Shop\\Book_Shop.csproj|solutionrelative:book_shop\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{990D7CA1-09F1-48B3-96B5-34FEC6AA6114}|DataAccess\\DataAccess.csproj|d:\\step\\asp.net\\asp.net\\book_shop\\dataaccess\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{990D7CA1-09F1-48B3-96B5-34FEC6AA6114}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B86BF819-68EA-4F01-AE84-1EDDB7F186FF}|Book_Shop\\Book_Shop.csproj|d:\\step\\asp.net\\asp.net\\book_shop\\book_shop\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B86BF819-68EA-4F01-AE84-1EDDB7F186FF}|Book_Shop\\Book_Shop.csproj|solutionrelative:book_shop\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\Migrations\\20240921163538_imageChange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess\\Migrations\\20240921163538_imageChange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B86BF819-68EA-4F01-AE84-1EDDB7F186FF}|Book_Shop\\Book_Shop.csproj|d:\\step\\asp.net\\asp.net\\book_shop\\book_shop\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B86BF819-68EA-4F01-AE84-1EDDB7F186FF}|Book_Shop\\Book_Shop.csproj|solutionrelative:book_shop\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{990D7CA1-09F1-48B3-96B5-34FEC6AA6114}|DataAccess\\DataAccess.csproj|d:\\step\\asp.net\\asp.net\\book_shop\\dataaccess\\helpers\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{990D7CA1-09F1-48B3-96B5-34FEC6AA6114}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\helpers\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\Migrations\\20240921163258_newmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess\\Migrations\\20240921163258_newmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{990D7CA1-09F1-48B3-96B5-34FEC6AA6114}|DataAccess\\DataAccess.csproj|d:\\step\\asp.net\\asp.net\\book_shop\\dataaccess\\shopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{990D7CA1-09F1-48B3-96B5-34FEC6AA6114}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\shopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990D7CA1-09F1-48B3-96B5-34FEC6AA6114}|DataAccess\\DataAccess.csproj|d:\\step\\asp.net\\asp.net\\book_shop\\dataaccess\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{990D7CA1-09F1-48B3-96B5-34FEC6AA6114}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86BF819-68EA-4F01-AE84-1EDDB7F186FF}|Book_Shop\\Book_Shop.csproj|d:\\step\\asp.net\\asp.net\\book_shop\\book_shop\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86BF819-68EA-4F01-AE84-1EDDB7F186FF}|Book_Shop\\Book_Shop.csproj|solutionrelative:book_shop\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_HSQMI6V_SQLEXPRESS/Book_Shop_DB/True/SqlTable/dbo.Books.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B86BF819-68EA-4F01-AE84-1EDDB7F186FF}|Book_Shop\\Book_Shop.csproj|d:\\step\\asp.net\\asp.net\\book_shop\\book_shop\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B86BF819-68EA-4F01-AE84-1EDDB7F186FF}|Book_Shop\\Book_Shop.csproj|solutionrelative:book_shop\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{990D7CA1-09F1-48B3-96B5-34FEC6AA6114}|DataAccess\\DataAccess.csproj|d:\\step\\asp.net\\asp.net\\book_shop\\dataaccess\\entities\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{990D7CA1-09F1-48B3-96B5-34FEC6AA6114}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B86BF819-68EA-4F01-AE84-1EDDB7F186FF}|Book_Shop\\Book_Shop.csproj|d:\\step\\asp.net\\asp.net\\book_shop\\book_shop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86BF819-68EA-4F01-AE84-1EDDB7F186FF}|Book_Shop\\Book_Shop.csproj|solutionrelative:book_shop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B86BF819-68EA-4F01-AE84-1EDDB7F186FF}|Book_Shop\\Book_Shop.csproj|d:\\step\\asp.net\\asp.net\\book_shop\\book_shop\\helpers\\seeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B86BF819-68EA-4F01-AE84-1EDDB7F186FF}|Book_Shop\\Book_Shop.csproj|solutionrelative:book_shop\\helpers\\seeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B86BF819-68EA-4F01-AE84-1EDDB7F186FF}|Book_Shop\\Book_Shop.csproj|d:\\step\\asp.net\\asp.net\\book_shop\\book_shop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B86BF819-68EA-4F01-AE84-1EDDB7F186FF}|Book_Shop\\Book_Shop.csproj|solutionrelative:book_shop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990D7CA1-09F1-48B3-96B5-34FEC6AA6114}|DataAccess\\DataAccess.csproj|d:\\step\\asp.net\\asp.net\\book_shop\\dataaccess\\entities\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{990D7CA1-09F1-48B3-96B5-34FEC6AA6114}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,71 +49,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 815,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\Entities\\Book.cs",
               "RelativeDocumentMoniker": "DataAccess\\Entities\\Book.cs",
               "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\Entities\\Book.cs",
               "RelativeToolTip": "DataAccess\\Entities\\Book.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAqwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T16:28:47.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240921163538_imageChange.cs",
-              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\Migrations\\20240921163538_imageChange.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240921163538_imageChange.cs",
-              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\Migrations\\20240921163538_imageChange.cs",
-              "RelativeToolTip": "DataAccess\\Migrations\\20240921163538_imageChange.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T16:35:38.385Z",
+              "WhenOpened": "2024-09-28T07:56:55.337Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "20240921163258_newmigration.cs",
-              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\Migrations\\20240921163258_newmigration.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240921163258_newmigration.cs",
-              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\Migrations\\20240921163258_newmigration.cs",
-              "RelativeToolTip": "DataAccess\\Migrations\\20240921163258_newmigration.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T16:32:58.961Z",
+              "Title": "dbo.Books [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_HSQMI6V_SQLEXPRESS/Book_Shop_DB/True/SqlTable/dbo.Books.sql",
+              "ToolTip": "dbo.Books [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-28T09:37:17.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Publisher.cs",
-              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\Entities\\Publisher.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Entities\\Publisher.cs",
-              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\Entities\\Publisher.cs",
-              "RelativeToolTip": "DataAccess\\Entities\\Publisher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\Helpers\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Helpers\\DbInitializer.cs",
+              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\Helpers\\DbInitializer.cs",
+              "RelativeToolTip": "DataAccess\\Helpers\\DbInitializer.cs",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T16:27:54.677Z",
+              "WhenOpened": "2024-09-28T09:28:53.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\Book_Shop\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "Book_Shop\\Controllers\\BooksController.cs",
-              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\Book_Shop\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "Book_Shop\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T16:19:48.83Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\Book_Shop\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "Book_Shop\\Views\\Books\\Create.cshtml",
+              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\Book_Shop\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "Book_Shop\\Views\\Books\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T07:21:21.784Z",
               "EditorCaption": ""
             },
             {
@@ -121,49 +109,74 @@
               "RelativeDocumentMoniker": "Book_Shop\\Views\\Books\\Index.cshtml",
               "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\Book_Shop\\Views\\Books\\Index.cshtml",
               "RelativeToolTip": "Book_Shop\\Views\\Books\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-21T16:16:03.325Z",
+              "WhenOpened": "2024-09-28T07:17:09.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\Book_Shop\\Views\\Books\\Details.cshtml",
-              "RelativeDocumentMoniker": "Book_Shop\\Views\\Books\\Details.cshtml",
-              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\Book_Shop\\Views\\Books\\Details.cshtml",
-              "RelativeToolTip": "Book_Shop\\Views\\Books\\Details.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvxkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-21T16:15:41.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Seeder.cs",
-              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\Book_Shop\\Helpers\\Seeder.cs",
-              "RelativeDocumentMoniker": "Book_Shop\\Helpers\\Seeder.cs",
-              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\Book_Shop\\Helpers\\Seeder.cs",
-              "RelativeToolTip": "Book_Shop\\Helpers\\Seeder.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFAAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\Book_Shop\\Program.cs",
+              "RelativeDocumentMoniker": "Book_Shop\\Program.cs",
+              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\Book_Shop\\Program.cs",
+              "RelativeToolTip": "Book_Shop\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T16:14:13.276Z",
+              "WhenOpened": "2024-09-28T07:05:31.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\Helpers\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Helpers\\DbInitializer.cs",
-              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\Helpers\\DbInitializer.cs",
-              "RelativeToolTip": "DataAccess\\Helpers\\DbInitializer.cs",
-              "ViewState": "AgIAAAUBAAAAAAAAAAAowBoBAACQAAAAAAAAAA==",
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\Book_Shop\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Book_Shop\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\Book_Shop\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Book_Shop\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAACUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T15:14:01.786Z",
+              "WhenOpened": "2024-09-28T07:00:03.553Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\Book_Shop\\appsettings.json",
+              "RelativeDocumentMoniker": "Book_Shop\\appsettings.json",
+              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\Book_Shop\\appsettings.json",
+              "RelativeToolTip": "Book_Shop\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAADmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-28T06:46:48.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShopDbContext.cs",
+              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\ShopDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\ShopDbContext.cs",
+              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\ShopDbContext.cs",
+              "RelativeToolTip": "DataAccess\\ShopDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T06:29:28.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Publisher.cs",
+              "DocumentMoniker": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\Entities\\Publisher.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\Publisher.cs",
+              "ToolTip": "D:\\Step\\ASP.NET\\ASP.NET\\Book_Shop\\DataAccess\\Entities\\Publisher.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\Publisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T16:27:54.677Z"
             }
           ]
         }
