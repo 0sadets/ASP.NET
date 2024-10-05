@@ -1,10 +1,8 @@
 ﻿@model DataAccess.Entities.Book
-
-<h1>Create new Book</h1>
-
+<h1>Edit Book</h1>
 
 
-<form asp-action="Create" method="post" class="row g-3">
+<form asp-action="Edit" method="post" class="row g-3">
     <div class="col-md-6">
         <label asp-for="Title" class="form-label">Title</label>
         <input asp-for="Title" type="text" class="form-control" placeholder="Enter Title">
@@ -17,7 +15,7 @@
     </div>
     <div class="col-12">
         <label asp-for="Description" class="form-label">Description</label>
-        <input asp-for="Description" type="text" class="form-control"  placeholder="Enter Description">
+        <input asp-for="Description" type="text" class="form-control" placeholder="Enter Description">
         <span class="form-text text-danger" asp-validation-for="Description"></span>
     </div>
     <div class="col-md-6">
@@ -52,9 +50,8 @@
     </div>
     <div class="col-md-4">
         <label asp-for="NumberOfPages" class="form-label">Number Of Pages</label>
-        <input asp-for="NumberOfPages" type="number" class="form-control" >
+        <input asp-for="NumberOfPages" type="number" class="form-control">
         <span class="form-text text-danger" asp-validation-for="NumberOfPages"></span>
-
     </div>
 
     <div class="col-md-4">
@@ -64,12 +61,12 @@
 
         </select>
     </div>
-   <div class="col-md-4">
-       <label asp-for="AuthorId" class="form-label">Author</label>
+    <div class="col-md-4">
+        <label asp-for="AuthorId" class="form-label">Author</label>
         <select asp-for="AuthorId" asp-items="@ViewBag.AuthorList" class="form-select">
             <option selected>Choose...</option>
-       </select>
-   </div>
+        </select>
+    </div>
     <div class="col-md-4">
         <label asp-for="PublisherId" class="form-label">Publisher</label>
         <select asp-for="PublisherId" asp-items="@ViewBag.PublisherList" class="form-select">

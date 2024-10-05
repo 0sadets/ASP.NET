@@ -233,7 +233,7 @@ namespace DataAccess.Helpers
                 {
                     Id = 2,
                     Title = "The Raven King",
-                    ISBN = "978-5-6044581-3-6",
+                    ISBN = "97856044580",
                     PaperPrice = 590,
                     EBookPrice = 180,
                     Description = "he Foxes are a fractured mess, but their latest disaster might be the miracle they've always needed to come together as a team. The one person standing in their way is Andrew, and the only one who can break through his personal barriers is Neil.",

@@ -10,14 +10,23 @@
             <div class="col">
                 <div class="card d-flex flex-column justify-content-between" >
 
-                    <img src="@book.ImagePath" class="card-img-top " style="width: 250px; height: 400px" alt="..."> 
-                    <div class="card-body">
+                    <img src="@(book.ImagePath??"https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg")" class="card-img-top " style="width: 250px; height: 400px" alt="...">
+            <div class="card-body">
                         <h5 class="card-title">@book.Title</h5>
                         <p class="card-text">
                             @book.Author
                             <span class="badge text-bg-primary"> grn</span>
                         </p>
-                        <a asp-action="Details" asp-route-id="@book.Id" class="btn btn-dark">Show Details</a> 
+                        <a asp-action="Details" asp-route-id="@book.Id" class="btn btn-success">
+                            <i class="bi bi-info-square"></i>
+                        </a>
+                        <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-secondary">
+                            <i class="bi bi-pencil-square"></i>
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@book.Id" class="btn btn-danger">
+                            <i class="bi bi-x-square"></i>
+                        </a>
+
                     </div>
                 </div>
             </div>

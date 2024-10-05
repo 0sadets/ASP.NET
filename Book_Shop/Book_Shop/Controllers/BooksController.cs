@@ -5,6 +5,7 @@ using DataAccess.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure.Internal;
 
 namespace Book_Shop.Controllers
 {
@@ -19,7 +20,54 @@ namespace Book_Shop.Controllers
         {
             return View(DbContext.Books.ToList());
         }
-       
+        public IActionResult Delete(int id)
+        {
+            var book = DbContext.Books.Find(id);
+            if (book == null) return NotFound();
+            
+            DbContext.Books.Remove(book);
+            DbContext.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+        private void LoadData()
+        {
+            ViewBag.AuthorList = new SelectList(
+                DbContext.Authors
+                    .Select(a => new {
+                        Id = a.Id,
+                        FullName = a.FirstName + " " + a.LastName
+                    }).ToList(),
+                "Id", "FullName");
+
+
+            ViewBag.CategoryList = new SelectList(DbContext.Categories.ToList(),
+                nameof(Category.Id), nameof(Category.CategoryName));
+            ViewBag.PublisherList = new SelectList(DbContext.Publishers.ToList(),
+                nameof(Publisher.Id), nameof(Publisher.PublisherName));
+
+        }
+        public IActionResult Edit(int id)
+        {
+            var book = DbContext.Books.Find(id);
+            if (book == null) return NotFound();
+            LoadData();
+
+            return View(book);
+        }
+        [HttpPost]
+        public IActionResult Edit(Book book)
+        {
+            if (!ModelState.IsValid)
+            {
+                LoadData();
+                return View(book);
+            }
+
+            DbContext.Books.Update(book);
+            DbContext.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+
         public IActionResult Details(int id) 
         { 
             if(id<0) { return BadRequest(); }
@@ -37,19 +85,7 @@ namespace Book_Shop.Controllers
         // get ~/Books/Create
         public IActionResult Create()
         {
-            ViewBag.AuthorList = new SelectList(
-                DbContext.Authors
-                    .Select(a => new {
-                        Id = a.Id,
-                        FullName = a.FirstName + " " + a.LastName
-                    }).ToList(),
-                "Id", "FullName");
-
-
-            ViewBag.CategoryList = new SelectList (DbContext.Categories.ToList(),
-                nameof(Category.Id), nameof(Category.CategoryName));
-            ViewBag.PublisherList = new SelectList(DbContext.Publishers.ToList(),
-                nameof(Publisher.Id), nameof(Publisher.PublisherName));
+            LoadData();
             return View();
         }
 
@@ -57,6 +93,11 @@ namespace Book_Shop.Controllers
         [HttpPost]
         public IActionResult Create(Book book)
         {
+            if (!ModelState.IsValid)
+            {
+                LoadData();
+                return View(book);
+            }
             DbContext.Books.Add(book);
             DbContext.SaveChanges();
             return RedirectToAction(nameof(Index));
