@@ -1,4 +1,5 @@
-﻿using DataAccess.Entities;
+﻿using DataAccess.Configuration;
+using DataAccess.Entities;
 using DataAccess.Helpers;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -35,6 +36,14 @@ namespace DataAccess
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.ApplyConfiguration(new BookConfiguration());
+            modelBuilder.ApplyConfiguration(new AuthorConfiguration());
+            modelBuilder.ApplyConfiguration(new CustomerConfiguration());
+            modelBuilder.ApplyConfiguration(new PublisherConfiguration());
+            modelBuilder.ApplyConfiguration(new CategoryConfiguration());
+
+
             modelBuilder.SeedAuthor();
             modelBuilder.SeedBooks();
             modelBuilder.SeedCategory();

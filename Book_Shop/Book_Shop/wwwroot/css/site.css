@@ -20,3 +20,6 @@ html {
 body {
   margin-bottom: 60px;
 }
+.carousel-control-prev, .carousel-control-next {
+    background-color:gray;
+}

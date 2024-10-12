@@ -137,3 +137,9 @@ D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop\bin\Debug\net8.0\runtimes\win\lib\ne
 D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop\bin\Debug\net8.0\DataAccess.dll
 D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop\bin\Debug\net8.0\DataAccess.pdb
+D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop\bin\Debug\net8.0\FluentValidation.dll
+D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop\obj\Debug\net8.0\Book_Shop.MvcApplicationPartsAssemblyInfo.cs
+D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop\bin\Debug\net8.0\BusinessLogic.dll
+D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop\bin\Debug\net8.0\BusinessLogic.pdb

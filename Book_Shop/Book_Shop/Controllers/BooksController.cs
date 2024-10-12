@@ -1,5 +1,6 @@
 ﻿using Book_Shop.Helpers;
 using Book_Shop.Models;
+using Book_Shop.Services;
 using DataAccess;
 using DataAccess.Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -11,44 +12,36 @@ namespace Book_Shop.Controllers
 {
     public class BooksController : Controller
     {
-        private readonly ShopDbContext DbContext;
-        public BooksController(ShopDbContext context)
+        private readonly IBookService service;
+        public BooksController(IBookService service)
         {
-             DbContext = context;
+            this.service = service;
         }
         public IActionResult Index()
         {
-            return View(DbContext.Books.ToList());
+            return View(service.GetBooks());
         }
         public IActionResult Delete(int id)
         {
-            var book = DbContext.Books.Find(id);
-            if (book == null) return NotFound();
-            
-            DbContext.Books.Remove(book);
-            DbContext.SaveChanges();
+            service.Delete(id);
             return RedirectToAction(nameof(Index));
         }
         private void LoadData()
         {
             ViewBag.AuthorList = new SelectList(
-                DbContext.Authors
-                    .Select(a => new {
-                        Id = a.Id,
-                        FullName = a.FirstName + " " + a.LastName
-                    }).ToList(),
+                service.GetAuthorList(),
                 "Id", "FullName");
 
 
-            ViewBag.CategoryList = new SelectList(DbContext.Categories.ToList(),
+            ViewBag.CategoryList = new SelectList(service.GetCategoryList(),
                 nameof(Category.Id), nameof(Category.CategoryName));
-            ViewBag.PublisherList = new SelectList(DbContext.Publishers.ToList(),
+            ViewBag.PublisherList = new SelectList(service.GetPublisherList(),
                 nameof(Publisher.Id), nameof(Publisher.PublisherName));
 
         }
         public IActionResult Edit(int id)
         {
-            var book = DbContext.Books.Find(id);
+            var book = service.GetBookById(id);
             if (book == null) return NotFound();
             LoadData();
 
@@ -63,8 +56,7 @@ namespace Book_Shop.Controllers
                 return View(book);
             }
 
-            DbContext.Books.Update(book);
-            DbContext.SaveChanges();
+            service.Edit(book);
             return RedirectToAction(nameof(Index));
         }
 
@@ -72,14 +64,9 @@ namespace Book_Shop.Controllers
         { 
             if(id<0) { return BadRequest(); }
 
-            var book = DbContext.Books
-                .Include(b => b.Author)
-                .Include(b => b.Publisher)
-                .Include(b => b.Category)
-                .FirstOrDefault(b => b.Id == id);
+            var book = service.GetBookById(id);
             if (book == null) {return NotFound();}
             return View(book);
-
 
         }
         // get ~/Books/Create
@@ -98,8 +85,7 @@ namespace Book_Shop.Controllers
                 LoadData();
                 return View(book);
             }
-            DbContext.Books.Add(book);
-            DbContext.SaveChanges();
+            service.Create(book);
             return RedirectToAction(nameof(Index));
         }
 
