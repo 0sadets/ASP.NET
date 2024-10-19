@@ -1,6 +1,7 @@
 ﻿using Book_Shop.Helpers;
 using Book_Shop.Models;
 using Book_Shop.Services;
+using BusinessLogic.Interfaces;
 using DataAccess;
 using DataAccess.Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -60,12 +61,13 @@ namespace Book_Shop.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        public IActionResult Details(int id) 
+        public IActionResult Details(int id, string returnUrl = null) 
         { 
             if(id<0) { return BadRequest(); }
 
             var book = service.GetBookById(id);
             if (book == null) {return NotFound();}
+            ViewBag.ReturnUrl = returnUrl;
             return View(book);
 
         }

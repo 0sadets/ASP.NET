@@ -20,7 +20,13 @@
             <img class="w-25 border border-1"  src="@Model.ImagePath"/>
 
         </div>
-
-        <a asp-action="Index" class="btn  btn-outline-secondary" style="width: 140px">Back</a>
+        @if(ViewBag.ReturnUrl == null)
+        {
+            <a asp-action="Index" class="btn btn-primary">Back</a>
+        }
+        else
+        {
+            <a href="@ViewBag.ReturnUrl" class="btn  btn-outline-secondary" style="width: 140px">Back</a>
+        }
     </div>
 </div>

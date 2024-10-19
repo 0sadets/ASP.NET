@@ -1,0 +1,33 @@
+﻿@model List<DataAccess.Entities.Book>
+
+<div class="card text-center">
+    <div class="card-header">
+        Your Cart
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Product List</h5>
+        <div>
+            @if (!Model.Any())
+            {
+                <p>No products in the cart</p>
+            }
+            <ol class="list-group list-group-numbered">
+                @foreach (var p in Model)
+                {
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">@p.Title</div>
+                            Content for list item
+                        </div>
+                        <span class="badge bg-primary rounded-pill">@p.PaperPrice$</span>
+                    </li>
+                }
+            </ol>
+
+        </div>
+        <a href="#" class="btn btn-primary mt-3">Confirm</a>
+    </div>
+    <div class="card-footer text-muted">
+        Count : @Model.Count();
+    </div>
+</div>

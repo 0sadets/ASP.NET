@@ -1,8 +1,106 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿﻿@using BusinessLogic.Interfaces
+@using BusinessLogic.Services
+
+
+@model List<DataAccess.Entities.Book>
+@inject ICartService CartService
 
 <div class="text-center">
     <h1>Welcome to BookShell</h1>
-    <h3>Here you can find and enjoy literary masterpieces of Ukrainian and foreign authors.n</h3>
+    <h3>Here you can find and enjoy literary masterpieces of Ukrainian and foreign authors</h3>
+
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        @foreach (var book in Model)
+        {
+            <div class="col">
+                <a 
+                    asp-controller="Books" 
+                    asp-route-returnUrl="@Context.Request.Path" 
+                    asp-action="Details" 
+                    asp-route-id="@book.Id" 
+                    class="card-link-block">
+                <div class="card d-flex flex-column justify-content-between h-100">
+
+                    <div id="carousel-@book.Id" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-@book.Id" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel-@book.Id" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel-@book.Id" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                                <div class="carousel-item active" style="height:350px">
+                                    <img src="@book.ImagePath" class="d-block mx-auto" alt="...">
+                            </div>
+                                <div class="carousel-item" style="height:350px">
+                                    <img src="@book.ImagePath" class="d-block  mx-auto" alt="...">
+                            </div>
+                                <div class="carousel-item" style="height:350px">
+                                    <img src="@book.ImagePath" class="d-block  mx-auto" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-@book.Id" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-@book.Id" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    @* <img src="@(book.ImagePath??"https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg")" class="card-img-top " style="width: 250px; height: 400px" alt="..."> *@
+                    <div class="card-body">
+                        <h5 class="card-title">@book.Title</h5>
+                        <p class="card-text">
+                            @book.Author
+                            <span class="badge text-bg-primary"> grn</span>
+                        </p>
+                        
+                            @* <a 
+                                asp-action="Add" 
+                                asp-controller="Cart" 
+                                asp-route-bookId="@book.Id"
+                               asp-route-returnUrl="@Context.Request.Path" class="btn btn-outline-success mt-2">
+                                <i class="bi bi-bag-plus"></i>
+                            </a> *@
+                            @if (CartService.IsInCart(book.Id))
+                            {
+                                <a asp-controller="Cart"
+                                   asp-action="Add"
+                                   asp-route-bookId="@book.Id"
+                                   asp-route-returnUrl="@Context.Request.Path"
+                                   class="btn btn-outline-success mt-2">
+                                    <i class="bi bi-bag-plus mr-3"></i>Add to Cart
+                                </a>
+                                <a 
+                                    asp-controller="Cart" 
+                                    asp-action="Remove"
+                                   asp-route-bookId="@book.Id"
+                                   asp-route-returnUrl="@Context.Request.Path" 
+                                    class="btn btn-outline-danger mt-2">
+                                    <i class="bi bi-bag-plus mr-3"></i>Remove from Cart
+                                </a>
+
+                            }
+                            else
+                            {
+                                <a 
+                                    asp-controller="Cart" 
+                                    asp-action="Add" 
+                                    asp-route-bookId="@book.Id" 
+                                    asp-route-returnUrl="@Context.Request.Path" 
+                                    class="btn btn-outline-success mt-2">
+                                    <i class="bi bi-bag-plus mr-3"></i>Add to Cart
+                                </a>
+                            }
+                        
+                        
+
+                    </div>
+                </div>
+                </a>
+            </div>
+        }
+    </div>
+
 </div>

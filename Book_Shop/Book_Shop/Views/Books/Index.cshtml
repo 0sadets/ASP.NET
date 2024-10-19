@@ -43,13 +43,20 @@
                             @book.Author
                             <span class="badge text-bg-primary"> grn</span>
                         </p>
-                        <a asp-action="Details" asp-route-id="@book.Id" class="btn btn-success">
+                        <a 
+                            asp-action="Details" 
+                            asp-route-id="@book.Id"
+                            asp-route-returnUrl="@Context.Request.Path" class="btn btn-success">
                             <i class="bi bi-info-square"></i>
                         </a>
-                        <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-secondary">
+                        <a 
+                            asp-action="Edit" 
+                            asp-route-id="@book.Id" class="btn btn-secondary">
                             <i class="bi bi-pencil-square"></i>
                         </a>
-                        <a asp-action="Delete" asp-route-id="@book.Id" class="btn btn-danger">
+                        <a 
+                            asp-action="Delete" 
+                            asp-route-id="@book.Id" class="btn btn-danger">
                             <i class="bi bi-x-square"></i>
                         </a>
 

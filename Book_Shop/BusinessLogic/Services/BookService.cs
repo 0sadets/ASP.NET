@@ -1,21 +1,10 @@
-﻿using DataAccess;
+﻿using BusinessLogic.Interfaces;
+using DataAccess;
 using DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Book_Shop.Services
+ namespace BusinessLogic.Services
 {
-    public interface IBookService
-    {
-        List<Book> GetBooks();
-        List<object> GetAuthorList();
-        List<Publisher> GetPublisherList();
-        List<Category> GetCategoryList();
-        Book? GetBookById(int id);
-        void Create(Book book);
-        void Edit(Book book);
-        void Delete(int id);
-
-    }
     public class BookService : IBookService
     {
         private readonly ShopDbContext _context;
@@ -73,6 +62,12 @@ namespace Book_Shop.Services
                     FullName = x.FirstName + " " + x.LastName
 
                 }).ToList<object>();    
+        }
+
+        public List<Book> Get(int[] ids)
+        {
+            return _context.Books.Where(
+                b => ids.Contains(b.Id)).ToList();
         }
     }
 }

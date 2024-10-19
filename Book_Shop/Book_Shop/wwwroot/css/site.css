@@ -23,3 +23,12 @@ body {
 .carousel-control-prev, .carousel-control-next {
     background-color:gray;
 }
+
+a.card-link-block{
+    color:inherit;
+    text-decoration: none;
+}
+img {
+    width: 250px;
+    height: 350px;
+}
