@@ -1,0 +1,16 @@
+D:\Step\ASP.NET\ASP.NET\Book_Shop\BusinessLogic\bin\Release\net8.0\BusinessLogic.deps.json
+D:\Step\ASP.NET\ASP.NET\Book_Shop\BusinessLogic\bin\Release\net8.0\BusinessLogic.dll
+D:\Step\ASP.NET\ASP.NET\Book_Shop\BusinessLogic\bin\Release\net8.0\BusinessLogic.pdb
+D:\Step\ASP.NET\ASP.NET\Book_Shop\BusinessLogic\bin\Release\net8.0\DataAccess.dll
+D:\Step\ASP.NET\ASP.NET\Book_Shop\BusinessLogic\bin\Release\net8.0\DataAccess.pdb
+D:\Step\ASP.NET\ASP.NET\Book_Shop\BusinessLogic\obj\Release\net8.0\BusinessLogic.csproj.AssemblyReference.cache
+D:\Step\ASP.NET\ASP.NET\Book_Shop\BusinessLogic\obj\Release\net8.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Step\ASP.NET\ASP.NET\Book_Shop\BusinessLogic\obj\Release\net8.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\Step\ASP.NET\ASP.NET\Book_Shop\BusinessLogic\obj\Release\net8.0\BusinessLogic.AssemblyInfo.cs
+D:\Step\ASP.NET\ASP.NET\Book_Shop\BusinessLogic\obj\Release\net8.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Step\ASP.NET\ASP.NET\Book_Shop\BusinessLogic\obj\Release\net8.0\BusinessLogic.sourcelink.json
+D:\Step\ASP.NET\ASP.NET\Book_Shop\BusinessLogic\obj\Release\net8.0\Business.CF5D6E35.Up2Date
+D:\Step\ASP.NET\ASP.NET\Book_Shop\BusinessLogic\obj\Release\net8.0\BusinessLogic.dll
+D:\Step\ASP.NET\ASP.NET\Book_Shop\BusinessLogic\obj\Release\net8.0\refint\BusinessLogic.dll
+D:\Step\ASP.NET\ASP.NET\Book_Shop\BusinessLogic\obj\Release\net8.0\BusinessLogic.pdb
+D:\Step\ASP.NET\ASP.NET\Book_Shop\BusinessLogic\obj\Release\net8.0\ref\BusinessLogic.dll

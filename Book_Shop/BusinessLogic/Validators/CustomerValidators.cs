@@ -20,9 +20,9 @@ namespace Book_Shop.Validators
             RuleFor(x => x.Email)
                 .NotEmpty().WithMessage("Email is required.")
                 .EmailAddress().WithMessage("Invalid email format.");
-            RuleFor(x => x.Phone)
-                .NotEmpty().WithMessage("Phone number is required.")
-                .Matches(@"^\+?\d{10}$").WithMessage("Invalid phone number format.");
+            //RuleFor(x => x.Phone)
+            //    .NotEmpty().WithMessage("Phone number is required.")
+            //    .Matches(@"^\+?\d{10}$").WithMessage("Invalid phone number format.");
 
             RuleFor(x => x.Address)
                 .NotEmpty().WithMessage("Address is required.");

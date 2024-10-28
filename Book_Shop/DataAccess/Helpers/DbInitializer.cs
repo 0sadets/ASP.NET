@@ -91,7 +91,7 @@ namespace DataAccess.Helpers
                         FirstName = "Sasha",
                         LastName = "Osadets",
                         Email = "Osadets2004@gmail.com",
-                        Phone = "+380958325059",
+                       // Phone = "0958325059",
                         Address = "Rivne",
                     },
                     new Customer()
@@ -100,7 +100,7 @@ namespace DataAccess.Helpers
                         FirstName = "Misha",
                         LastName = "Jobs",
                         Email = "Misha2004@gmail.com",
-                        Phone = "+380951234059",
+                       // Phone = "0951234059",
                         Address = "Rivne",
                     },
                     new Customer()
@@ -109,7 +109,7 @@ namespace DataAccess.Helpers
                         FirstName = "Olena",
                         LastName = "Levchyk",
                         Email = "levchyk2004@gmail.com",
-                        Phone = "+380956543219",
+                       // Phone = "0956543219",
                         Address = "Lviv",
                     },
                 });

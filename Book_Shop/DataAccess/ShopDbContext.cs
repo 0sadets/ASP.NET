@@ -1,6 +1,7 @@
 ﻿using DataAccess.Configuration;
 using DataAccess.Entities;
 using DataAccess.Helpers;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess
 {
-    public class ShopDbContext : DbContext
+    public class ShopDbContext : IdentityDbContext
     {
         public ShopDbContext() : base() { }
         public ShopDbContext(DbContextOptions dbContextOptions) : base(dbContextOptions) { }
