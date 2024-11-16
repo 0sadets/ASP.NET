@@ -297,3 +297,6 @@ D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop\bin\Debug\net8.0\runtimes\win-arm\na
 D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop\bin\Debug\net8.0\MailKit.dll
+D:\Step\ASP.NET\ASP.NET\Book_Shop\Book_Shop\bin\Debug\net8.0\MimeKit.dll

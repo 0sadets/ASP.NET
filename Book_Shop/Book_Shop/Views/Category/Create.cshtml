@@ -1,0 +1,44 @@
+﻿@model DataAccess.Entities.Category
+
+<h1>Create new Category</h1>
+
+<form asp-action="Create" method="post" class="row g-3">
+	<div class="col-md-12">
+		<label asp-for="CategoryName" class="form-label">Category Name</label>
+		<input asp-for="CategoryName" type="text" class="form-control" placeholder="Enter Category Name">
+		<span class="form-text text-danger" asp-validation-for="CategoryName"></span>
+	</div>
+
+	<div class="col-6">
+		<button type="submit" class="btn btn-primary w-100">Create</button>
+	</div>
+	<div class="col-6">
+		<a asp-action="Index" class="btn btn-primary w-100">Back</a>
+	</div>
+</form>
+
+<h3 class="mt-5">All Categories:</h3>
+
+@if (ViewBag.Categories != null && ((List<DataAccess.Entities.Category>)ViewBag.Categories).Any())
+{
+			<ul class="list-group">
+		@foreach (var category in (List<DataAccess.Entities.Category>)ViewBag.Categories)
+		{
+							<li class="list-group-item d-flex justify-content-between align-items-center">
+								<a asp-action="Index" asp-controller="Home"
+								   asp-route-categoryId="@category.Id"
+								   asp-route-returnUrl="@Context.Request.Path" style="text-decoration: none; color: inherit;">
+					@category.CategoryName
+								</a>
+				@* <a asp-action="Delete"
+                           asp-route-id="@category.Id" class="btn btn-outline-danger">
+                            <i class="bi bi-x-square"></i>
+                        </a> *@
+							</li>
+		}
+			</ul>
+}
+else
+{
+			<p class="text-center mt-4">No categories found yet.</p>
+}

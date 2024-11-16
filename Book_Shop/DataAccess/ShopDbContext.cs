@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess
 {
-    public class ShopDbContext : IdentityDbContext
+    public class ShopDbContext : IdentityDbContext<Customer>
     {
         public ShopDbContext() : base() { }
         public ShopDbContext(DbContextOptions dbContextOptions) : base(dbContextOptions) { }
@@ -21,7 +21,8 @@ namespace DataAccess
         public DbSet<Category> Categories {  get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Publisher> Publishers { get; set; }
-        
+        public DbSet<Order> Orders { get; set; }
+
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
         //    base.OnConfiguring(optionsBuilder);
@@ -48,7 +49,7 @@ namespace DataAccess
             modelBuilder.SeedAuthor();
             modelBuilder.SeedBooks();
             modelBuilder.SeedCategory();
-            modelBuilder.SeedCustomer();
+            //modelBuilder.SeedCustomer();
             modelBuilder.SeedPublisher();
         }
     }

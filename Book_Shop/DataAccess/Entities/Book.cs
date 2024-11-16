@@ -46,7 +46,7 @@ namespace DataAccess.Entities
         public Publisher? Publisher { get; set; }
         public int CategoryID { get; set; }
         public Category? Category { get; set; }
-        public ICollection<Cart> Carts { get; set; }
+        public ICollection<Cart>? Carts { get; set; }
 
     }
 }

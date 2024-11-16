@@ -12,7 +12,8 @@ namespace DataAccess.Entities
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Biography { get; set; }
-        public ICollection<Book> Books { get; set; } = new List<Book>();
+		public string? ImagePath { get; set; }
+		public ICollection<Book> Books { get; set; } = new List<Book>();
 
     }
 }

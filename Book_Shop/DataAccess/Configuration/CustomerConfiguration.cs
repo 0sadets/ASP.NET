@@ -15,12 +15,12 @@ namespace DataAccess.Configuration
         {
            // builder.HasKey(x=>x.Id);
 
-            builder.Property(x => x.FirstName)
-                .IsRequired()
-                .HasMaxLength(50);
-            builder.Property(x => x.LastName)
-                .IsRequired()
-                .HasMaxLength(50);
+            //builder.Property(x => x.FirstName)
+            //    .IsRequired()
+            //    .HasMaxLength(50);
+            //builder.Property(x => x.LastName)
+            //    .IsRequired()
+            //    .HasMaxLength(50);
             builder.Property(x => x.Email)
                 .IsRequired()
                 .HasMaxLength(250);
@@ -28,9 +28,9 @@ namespace DataAccess.Configuration
             //    .IsRequired()  
             //    .HasMaxLength(15); 
 
-            builder.Property(x=>x.Address)
-                .IsRequired()
-                .HasMaxLength(500);
+            //builder.Property(x=>x.Address)
+            //    .IsRequired()
+            //    .HasMaxLength(500);
         }
     }
 }

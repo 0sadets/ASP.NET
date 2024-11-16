@@ -4,6 +4,7 @@ using Book_Shop.Services;
 using BusinessLogic.Interfaces;
 using DataAccess;
 using DataAccess.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -11,17 +12,21 @@ using Microsoft.EntityFrameworkCore.Infrastructure.Internal;
 
 namespace Book_Shop.Controllers
 {
+    
     public class BooksController : Controller
     {
         private readonly IBookService service;
+
         public BooksController(IBookService service)
         {
             this.service = service;
         }
+        [Authorize(Roles = "Admin")]
         public IActionResult Index()
-        {
-            return View(service.GetBooks());
-        }
+		{
+			return View(service.GetBooks());
+		}
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(int id)
         {
             service.Delete(id);
@@ -40,6 +45,7 @@ namespace Book_Shop.Controllers
                 nameof(Publisher.Id), nameof(Publisher.PublisherName));
 
         }
+        [Authorize(Roles = "Admin")]
         public IActionResult Edit(int id)
         {
             var book = service.GetBookById(id);
@@ -56,7 +62,6 @@ namespace Book_Shop.Controllers
                 LoadData();
                 return View(book);
             }
-
             service.Edit(book);
             return RedirectToAction(nameof(Index));
         }
@@ -72,6 +77,7 @@ namespace Book_Shop.Controllers
 
         }
         // get ~/Books/Create
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             LoadData();

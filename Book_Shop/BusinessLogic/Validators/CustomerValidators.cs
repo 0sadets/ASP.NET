@@ -7,16 +7,16 @@ namespace Book_Shop.Validators
     {
         public CustomerValidators()
         {
-            RuleFor(x => x.FirstName)
-                .NotEmpty()
-                .NotNull().WithMessage("FirstName is required.")
-                .MinimumLength(2)
-                .MaximumLength(50);
-            RuleFor(x => x.LastName)
-                .NotEmpty()
-                .NotNull().WithMessage("Lastname is required.")
-                .MinimumLength(2)
-                .MaximumLength(50);
+            //RuleFor(x => x.FirstName)
+            //    .NotEmpty()
+            //    .NotNull().WithMessage("FirstName is required.")
+            //    .MinimumLength(2)
+            //    .MaximumLength(50);
+            //RuleFor(x => x.LastName)
+            //    .NotEmpty()
+            //    .NotNull().WithMessage("Lastname is required.")
+            //    .MinimumLength(2)
+            //    .MaximumLength(50);
             RuleFor(x => x.Email)
                 .NotEmpty().WithMessage("Email is required.")
                 .EmailAddress().WithMessage("Invalid email format.");
@@ -24,8 +24,8 @@ namespace Book_Shop.Validators
             //    .NotEmpty().WithMessage("Phone number is required.")
             //    .Matches(@"^\+?\d{10}$").WithMessage("Invalid phone number format.");
 
-            RuleFor(x => x.Address)
-                .NotEmpty().WithMessage("Address is required.");
+            //RuleFor(x => x.Address)
+            //    .NotEmpty().WithMessage("Address is required.");
         }
     }
 }

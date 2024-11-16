@@ -32,3 +32,15 @@ img {
     width: 250px;
     height: 350px;
 }
+.custom-toggler .navbar-toggler-icon {
+ color: black;   
+}
+
+/*.sidemenu{
+    background-color:gainsboro;
+    height:100%;
+    width:100%;
+    padding:0;
+    margin:0;
+}*/
+

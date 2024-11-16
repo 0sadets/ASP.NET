@@ -27,7 +27,8 @@ namespace Book_Shop.Validators
             RuleFor(x => x.Description)
                  .NotEmpty()
                  .NotNull().WithMessage("Description is required.")
-                 .WithMessage("Fild is required");
+                 .WithMessage("Fild is required")
+                 .MaximumLength(4000).WithMessage("Description must not exceed 4000 characters.");
             RuleFor(a => a.Count)
                 .NotNull().WithMessage("Count is required.")
                 .GreaterThanOrEqualTo(0)

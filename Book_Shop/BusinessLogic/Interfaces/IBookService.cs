@@ -18,6 +18,10 @@ namespace BusinessLogic.Interfaces
         void Create(Book book);
         void Edit(Book book);
         void Delete(int id);
+        List<Book> SearchBooks(string query);
+		List<Book> GetBooksByCategoryId(int id);
+		List<Book> GetBooksByPublisherId(int id);
 
-    }
+
+	}
 }

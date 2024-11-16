@@ -55,6 +55,10 @@ namespace DataAccess.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<string>("ImagePath")
+                        .HasMaxLength(2048)
+                        .HasColumnType("nvarchar(2048)");
+
                     b.Property<string>("LastName")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -70,6 +74,7 @@ namespace DataAccess.Migrations
                             Id = 1,
                             Biography = "USA",
                             FirstName = "Nora",
+                            ImagePath = "https://knigogo.top/wp-content/uploads/2023/01/Nora-Sakavic-237x308.jpg",
                             LastName = "Sakavic"
                         },
                         new
@@ -77,6 +82,7 @@ namespace DataAccess.Migrations
                             Id = 2,
                             Biography = "Ukraine",
                             FirstName = "Hilarion",
+                            ImagePath = "https://forbes.ua/static/storage/thumbs/414x671/5/1f/7f751b94-b3bb5c9efa73b215c208131abc3a41f5.jpg?v=4355_2",
                             LastName = "Pavlyuk"
                         },
                         new
@@ -84,6 +90,7 @@ namespace DataAccess.Migrations
                             Id = 3,
                             Biography = "USA",
                             FirstName = "Erin",
+                            ImagePath = "https://mybookshelf.com.ua/files/Erin.jpg",
                             LastName = "Morgenstern"
                         },
                         new
@@ -98,6 +105,7 @@ namespace DataAccess.Migrations
                             Id = 5,
                             Biography = "Germany",
                             FirstName = "Thomas",
+                            ImagePath = "https://static.yakaboo.ua/media/entity/author/1/_/1_5_2.jpg",
                             LastName = "Mann"
                         },
                         new
@@ -105,6 +113,7 @@ namespace DataAccess.Migrations
                             Id = 6,
                             Biography = "USA",
                             FirstName = "Ray",
+                            ImagePath = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeCIh-DgHkRN6kF01iw5EVC7AMAR8PFbUeNg&s",
                             LastName = "Bradbury"
                         },
                         new
@@ -112,6 +121,7 @@ namespace DataAccess.Migrations
                             Id = 7,
                             Biography = "USA",
                             FirstName = "Harper",
+                            ImagePath = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8pdhxKYlV1EYfjGfTf9P-EpF2LGQn8Ev2pg&s",
                             LastName = "Lee"
                         },
                         new
@@ -119,6 +129,7 @@ namespace DataAccess.Migrations
                             Id = 8,
                             Biography = "UK",
                             FirstName = "Charlotte",
+                            ImagePath = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtdV2etWBDVg4tdHyaCERfMZNqmPTUMNhJMQ&s",
                             LastName = "Brontë"
                         },
                         new
@@ -126,6 +137,7 @@ namespace DataAccess.Migrations
                             Id = 9,
                             Biography = "Ukraine",
                             FirstName = "Grigory",
+                            ImagePath = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/%D0%9A%D0%B2%D1%96%D1%82%D0%BA%D0%B0-%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%27%D1%8F%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE.jpg/800px-%D0%9A%D0%B2%D1%96%D1%82%D0%BA%D0%B0-%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%27%D1%8F%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE.jpg",
                             LastName = "Kvitky-Osnovyanenko"
                         });
                 });
@@ -317,6 +329,9 @@ namespace DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("BookCount")
+                        .HasColumnType("int");
+
                     b.Property<string>("CategoryName")
                         .IsRequired()
                         .HasMaxLength(200)
@@ -330,46 +345,123 @@ namespace DataAccess.Migrations
                         new
                         {
                             Id = 1,
+                            BookCount = 0,
                             CategoryName = "Novel"
                         },
                         new
                         {
                             Id = 2,
+                            BookCount = 0,
                             CategoryName = "Contemporary literature"
                         },
                         new
                         {
                             Id = 3,
+                            BookCount = 0,
                             CategoryName = "Young Adult"
                         },
                         new
                         {
                             Id = 4,
+                            BookCount = 0,
                             CategoryName = "Mystical Horror"
                         },
                         new
                         {
                             Id = 5,
+                            BookCount = 0,
                             CategoryName = "Fantasy"
                         },
                         new
                         {
                             Id = 6,
+                            BookCount = 0,
                             CategoryName = "Horror"
                         },
                         new
                         {
                             Id = 7,
+                            BookCount = 0,
                             CategoryName = "Southern Gothic Bildungsroman"
                         },
                         new
                         {
                             Id = 8,
+                            BookCount = 0,
                             CategoryName = "Fiction"
                         });
                 });
 
             modelBuilder.Entity("DataAccess.Entities.Customer", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("AccessFailedCount")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Birthdate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("LockoutEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("NormalizedEmail")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SecurityStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("TwoFactorEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex")
+                        .HasFilter("[NormalizedUserName] IS NOT NULL");
+
+                    b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("DataAccess.Entities.Order", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -377,55 +469,21 @@ namespace DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Address")
+                    b.Property<string>("CustomerId")
                         .IsRequired()
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
+                        .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasMaxLength(250)
-                        .HasColumnType("nvarchar(250)");
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
 
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                    b.Property<decimal>("Total")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Customers");
+                    b.HasIndex("CustomerId");
 
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Address = "Rivne",
-                            Email = "Osadets2004@gmail.com",
-                            FirstName = "Sasha",
-                            LastName = "Osadets"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Address = "Rivne",
-                            Email = "Misha2004@gmail.com",
-                            FirstName = "Misha",
-                            LastName = "Jobs"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Address = "Lviv",
-                            Email = "levchyk2004@gmail.com",
-                            FirstName = "Olena",
-                            LastName = "Levchyk"
-                        });
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("DataAccess.Entities.Publisher", b =>
@@ -435,6 +493,9 @@ namespace DataAccess.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BookCount")
+                        .HasColumnType("int");
 
                     b.Property<string>("PublisherName")
                         .IsRequired()
@@ -449,36 +510,43 @@ namespace DataAccess.Migrations
                         new
                         {
                             Id = 1,
+                            BookCount = 0,
                             PublisherName = "Nora Sakavic"
                         },
                         new
                         {
                             Id = 2,
+                            BookCount = 0,
                             PublisherName = "Vivat"
                         },
                         new
                         {
                             Id = 3,
+                            BookCount = 0,
                             PublisherName = "KSD"
                         },
                         new
                         {
                             Id = 4,
+                            BookCount = 0,
                             PublisherName = "KM-BUKS"
                         },
                         new
                         {
                             Id = 5,
+                            BookCount = 0,
                             PublisherName = "Laboratory"
                         },
                         new
                         {
                             Id = 6,
+                            BookCount = 0,
                             PublisherName = "Educational book - Bohdan"
                         },
                         new
                         {
                             Id = 7,
+                            BookCount = 0,
                             PublisherName = "Old Lion Publishing House"
                         });
                 });
@@ -535,71 +603,6 @@ namespace DataAccess.Migrations
                     b.ToTable("AspNetRoleClaims", (string)null);
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("AccessFailedCount")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ConcurrencyStamp")
-                        .IsConcurrencyToken()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Email")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.Property<bool>("EmailConfirmed")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("LockoutEnabled")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTimeOffset?>("LockoutEnd")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<string>("NormalizedEmail")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.Property<string>("NormalizedUserName")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.Property<string>("PasswordHash")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PhoneNumber")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("PhoneNumberConfirmed")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("SecurityStamp")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("TwoFactorEnabled")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("UserName")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("NormalizedEmail")
-                        .HasDatabaseName("EmailIndex");
-
-                    b.HasIndex("NormalizedUserName")
-                        .IsUnique()
-                        .HasDatabaseName("UserNameIndex")
-                        .HasFilter("[NormalizedUserName] IS NOT NULL");
-
-                    b.ToTable("AspNetUsers", (string)null);
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
                     b.Property<int>("Id")
@@ -628,12 +631,10 @@ namespace DataAccess.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderKey")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
@@ -670,12 +671,10 @@ namespace DataAccess.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Value")
                         .HasColumnType("nvarchar(max)");
@@ -727,6 +726,17 @@ namespace DataAccess.Migrations
                     b.Navigation("Publisher");
                 });
 
+            modelBuilder.Entity("DataAccess.Entities.Order", b =>
+                {
+                    b.HasOne("DataAccess.Entities.Customer", "Customer")
+                        .WithMany("Orders")
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Customer");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -738,7 +748,7 @@ namespace DataAccess.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                    b.HasOne("DataAccess.Entities.Customer", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -747,7 +757,7 @@ namespace DataAccess.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                    b.HasOne("DataAccess.Entities.Customer", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -762,7 +772,7 @@ namespace DataAccess.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                    b.HasOne("DataAccess.Entities.Customer", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -771,7 +781,7 @@ namespace DataAccess.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                    b.HasOne("DataAccess.Entities.Customer", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -786,6 +796,11 @@ namespace DataAccess.Migrations
             modelBuilder.Entity("DataAccess.Entities.Category", b =>
                 {
                     b.Navigation("Books");
+                });
+
+            modelBuilder.Entity("DataAccess.Entities.Customer", b =>
+                {
+                    b.Navigation("Orders");
                 });
 
             modelBuilder.Entity("DataAccess.Entities.Publisher", b =>

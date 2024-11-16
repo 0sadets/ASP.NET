@@ -22,9 +22,11 @@ namespace DataAccess.Configuration
                 .HasMaxLength(50);
             builder.Property(p => p.Biography)
                 .IsRequired()
-                .HasMaxLength(1000);
+                .HasMaxLength(4000);
+			builder.Property(b => b.ImagePath)
+				.HasMaxLength(2048);
 
-            builder.HasMany(b => b.Books)
+			builder.HasMany(b => b.Books)
                 .WithOne(a => a.Author)
                 .HasForeignKey(a => a.AuthorId);
 

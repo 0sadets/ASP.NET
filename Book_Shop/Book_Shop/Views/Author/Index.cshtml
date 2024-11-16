@@ -1,0 +1,40 @@
+﻿@model List<DataAccess.Entities.Author>
+
+<nav class="navbar bg-body-tertiary text-center">
+    <div class="container-fluid justify-content-center">
+        <form asp-action="Index" method="get" class="d-flex w-50" role="search">
+            <input class="form-control me-2" type="search" name="searchQuery" value="@ViewBag.SearchQuery" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-secondary" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+@if (Model.Any())
+{
+    <div class="row row-cols-1 row-cols-md-4 g-4 mt-2">
+        @foreach (var author in Model)
+        {
+            <div class="col">
+                <div class="card d-flex flex-column justify-content-between" style="height: 550px;">
+                    <img src="@(author.ImagePath ?? "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg")"
+                         class="card-img-top mx-auto d-block"
+                         style="width: 250px; height: 400px;"
+                         alt="Author Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-truncate">@author.FirstName @author.LastName</h5>
+                        <p class="card-text text-truncate" style="flex-grow: 1; overflow: hidden; text-overflow: ellipsis; max-height: 60px;">
+                            @author.Biography
+                        </p>
+                        <a asp-action="Details" asp-route-id="@author.Id"
+                           asp-route-returnUrl="@Context.Request.Path"
+                           class="btn btn-outline-secondary mt-auto">Review</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <h2>Oops.. seems like there is no any Authors yet :(</h2>
+}

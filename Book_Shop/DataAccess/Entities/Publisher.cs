@@ -11,6 +11,7 @@ namespace DataAccess.Entities
         public int Id { get; set; }
         public string PublisherName { get; set; }
 
-        public ICollection<Book> Books { get; set; }
+        public ICollection<Book>? Books { get; set; }
+        public int BookCount { get; set; }
     }
 }

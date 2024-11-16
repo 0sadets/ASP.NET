@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DataAccess.Entities;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System.Reflection.Emit;
 namespace DataAccess.Configuration
 {
     public class BookConfiguration : IEntityTypeConfiguration<Book>
@@ -57,7 +58,9 @@ namespace DataAccess.Configuration
             builder.HasOne(a => a.Publisher)
                 .WithMany(b => b.Books)
                 .HasForeignKey(p => p.PublisherId);
-
+            //builder.HasMany(b => b.Carts)
+            //    .WithOne(c => c.Books)
+            //    .IsRequired(false);
         }
     }
 }

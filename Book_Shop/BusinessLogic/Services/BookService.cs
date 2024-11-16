@@ -60,14 +60,6 @@ namespace BusinessLogic.Services
         }
         public Book? GetBookById(int id)
         {
-            //if(id<0) return null;
-            //var book = _context.Books
-            //    .Include(b => b.Author)       // Завантаження даних автора
-            //    .Include(b => b.Publisher)    // Завантаження даних видавця
-            //    .Include(b => b.Category)     // Завантаження даних категорії
-            //    .FirstOrDefault(b => b.Id == id);
-            //if (book == null) return null;
-            //return book;
 
             if (id < 0) return null;
 
@@ -80,23 +72,14 @@ namespace BusinessLogic.Services
         }
         public List<Category> GetCategoryList()
         {
-            //return _context.Categories.ToList();
             return categoryRepo.Get().ToList();
         }
         public List<Publisher> GetPublisherList()
         {
-            //return _context.Publishers.ToList();
             return publisherRepo.Get().ToList();
         }
         public List<object> GetAuthorList()
-        {
-            //return _context.Authors
-            //    .Select(x => new
-            //    {
-            //        Id = x.Id,
-            //        FullName = x.FirstName + " " + x.LastName
-
-            //    }).ToList<object>();    
+        {   
             return authorRepo.Get()
                 .Select(x => new
                 {
@@ -108,9 +91,30 @@ namespace BusinessLogic.Services
 
         public List<Book> Get(int[] ids)
         {
-            //return _context.Books.Where(
-            //    b => ids.Contains(b.Id)).ToList();
             return bookRepo.Get(b => ids.Contains(b.Id)).ToList();
         }
-    }
+
+        public List<Book> SearchBooks(string query)
+        {
+			if (string.IsNullOrEmpty(query)) return bookRepo.Get().ToList();
+
+			var normilizedQuery = query.ToLowerInvariant();
+
+            return bookRepo.Get()
+                .Where(b => b.Title != null && b.Title.ToLower().Contains(normilizedQuery))
+                .ToList();
+        }
+
+		public List<Book> GetBooksByCategoryId(int id)
+		{
+			return bookRepo.Get()
+                .Where (b => b.CategoryID == id).ToList();
+		}
+		public List<Book> GetBooksByPublisherId(int id)
+		{
+			return bookRepo.Get()
+				.Where(b => b.PublisherId == id).ToList();
+		}
+
+	}
 }

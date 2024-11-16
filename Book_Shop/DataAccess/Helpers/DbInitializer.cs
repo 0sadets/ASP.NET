@@ -20,100 +20,117 @@ namespace DataAccess.Helpers
                         Id = 1,
                         FirstName = "Nora",
                         LastName = "Sakavic",
-                        Biography = "USA"
-                    },
+                        Biography = "USA",
+                        ImagePath = "https://knigogo.top/wp-content/uploads/2023/01/Nora-Sakavic-237x308.jpg"
+					},
                     new Author()
                     {
                         Id = 2,
                         FirstName = "Hilarion",
                         LastName = "Pavlyuk",
-                        Biography = "Ukraine"
-                    },
+                        Biography = "Ukraine",
+                        ImagePath = "https://forbes.ua/static/storage/thumbs/414x671/5/1f/7f751b94-b3bb5c9efa73b215c208131abc3a41f5.jpg?v=4355_2"
+					},
                     new Author()
                     {
                         Id = 3,
                         FirstName = "Erin",
                         LastName = "Morgenstern",
-                        Biography = "USA"
-                    },
+                        Biography = "USA",
+						ImagePath ="https://mybookshelf.com.ua/files/Erin.jpg"
+
+					},
                     new Author()
                     {
                         Id = 4,
                         FirstName = "V.",
                         LastName = "Tsybulska",
-                        Biography = "Ukraine"
-                    },
+                        Biography = "Ukraine",
+						ImagePath =null
+
+					},
                     new Author()
                     {
                         Id = 5,
                         FirstName = "Thomas",
                         LastName = "Mann",
-                        Biography = "Germany"
-                    },
+                        Biography = "Germany",
+						ImagePath ="https://static.yakaboo.ua/media/entity/author/1/_/1_5_2.jpg"
+
+					},
                     new Author()
                     {
                         Id = 6,
                         FirstName = "Ray",
                         LastName = "Bradbury",
-                        Biography = "USA"
-                    },
+                        Biography = "USA",
+						ImagePath ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeCIh-DgHkRN6kF01iw5EVC7AMAR8PFbUeNg&s"
+
+					},
                     new Author()
                     {
                         Id = 7,
                         FirstName = "Harper",
                         LastName = "Lee",
-                        Biography = "USA"
-                    },
+                        Biography = "USA",
+						ImagePath ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8pdhxKYlV1EYfjGfTf9P-EpF2LGQn8Ev2pg&s"
+
+					},
                     new Author()
                     {
                         Id = 8,
                         FirstName = "Charlotte",
                         LastName = "Brontë",
-                        Biography = "UK"
-                    },
+                        Biography = "UK",
+						ImagePath ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtdV2etWBDVg4tdHyaCERfMZNqmPTUMNhJMQ&s"
+
+					},
                     new Author()
                     {
                         Id = 9,
                         FirstName = "Grigory",
                         LastName = "Kvitky-Osnovyanenko",
-                        Biography = "Ukraine"
-                    },
+                        Biography = "Ukraine",
+						ImagePath ="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/%D0%9A%D0%B2%D1%96%D1%82%D0%BA%D0%B0-%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%27%D1%8F%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE.jpg/800px-%D0%9A%D0%B2%D1%96%D1%82%D0%BA%D0%B0-%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%27%D1%8F%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE.jpg"
+
+					},
                 });
         }
-        public static void SeedCustomer(this ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Customer>().HasData(
-                new Customer[]
-                {
-                    new Customer()
-                    {
-                        Id = 1,
-                        FirstName = "Sasha",
-                        LastName = "Osadets",
-                        Email = "Osadets2004@gmail.com",
-                       // Phone = "0958325059",
-                        Address = "Rivne",
-                    },
-                    new Customer()
-                    {
-                        Id = 2,
-                        FirstName = "Misha",
-                        LastName = "Jobs",
-                        Email = "Misha2004@gmail.com",
-                       // Phone = "0951234059",
-                        Address = "Rivne",
-                    },
-                    new Customer()
-                    {
-                        Id = 3,
-                        FirstName = "Olena",
-                        LastName = "Levchyk",
-                        Email = "levchyk2004@gmail.com",
-                       // Phone = "0956543219",
-                        Address = "Lviv",
-                    },
-                });
-        }
+        //public static void SeedCustomer(this ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<Customer>().HasData(
+        //        new Customer[]
+        //        {
+        //            new Customer()
+        //            {
+        //                Id = 1,
+        //                FirstName = "Sasha",
+        //                LastName = "Osadets",
+        //                Email = "Osadets2004@gmail.com",
+        //               // Phone = "0958325059",
+        //                Address = "Rivne",
+        //            },
+        //            new Customer()
+        //            {
+        //                Id = 2,
+        //                FirstName = "Misha",
+        //                LastName = "Jobs",
+        //                Email = "Misha2004@gmail.com",
+        //               // Phone = "0951234059",
+        //                Address = "Rivne",
+        //            },
+        //            new Customer()
+        //            {
+        //                Id = 3,
+        //                FirstName = "Olena",
+        //                LastName = "Levchyk",
+        //                Email = "levchyk2004@gmail.com",
+        //               // Phone = "0956543219",
+        //                Address = "Lviv",
+        //            },
+        //        });
+        //}
+        
         public static void SeedCategory(this ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Category>().HasData(

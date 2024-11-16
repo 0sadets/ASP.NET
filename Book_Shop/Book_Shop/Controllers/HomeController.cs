@@ -14,12 +14,33 @@ namespace Book_Shop.Controllers
         {
             Service = service;
         }
-        public IActionResult Index()
-        {
-            return View(Service.GetBooks());
-        }
+        
+		public IActionResult Index(int? categoryId = null, int? publisherId = null, string searchQuery = null)
+		{
+			var books = Service.GetBooks();
 
-        public IActionResult Privacy()
+			if (categoryId.HasValue)
+			{
+				books = books.Where(book => book.CategoryID == categoryId.Value).ToList();
+			}
+
+			if (publisherId.HasValue)
+			{
+				books = books.Where(book => book.PublisherId == publisherId.Value).ToList();
+			}
+
+			if (!string.IsNullOrWhiteSpace(searchQuery))
+			{
+				books = books.Where(book => book.Title.Contains(searchQuery, StringComparison.OrdinalIgnoreCase)).ToList();
+			}
+
+			ViewBag.SearchQuery = searchQuery;
+			ViewBag.CategoryId = categoryId;
+			ViewBag.PublisherId = publisherId;// Зберігаємо для можливого відображення у вигляді
+			return View(books);
+		}
+
+		public IActionResult Privacy()
         {
             return View();
         }

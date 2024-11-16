@@ -1,70 +1,94 @@
 ﻿@model List<DataAccess.Entities.Book>
 
-<h1>Book List</h1>
+<nav class="navbar navbar-expand-lg border-bottom border-dark bg-white align-content-center">
+	<div class="container-fluid">
+		<a class="navbar-brand text-dark" href="#">Book List</a>
+
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			@* <span class="navbar-toggler-icon "></span> *@
+			<i class="bi bi-three-dots"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item dropdown">
+					<button class="btn btn-white border border-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+						Add
+					</button>
+					<ul class="dropdown-menu">
+						<li>
+							
+							<a asp-action="Create" class="dropdown-item"> <i class="bi bi-book  "></i> New Book</a>
+						</li>
+						<li>
+							<a asp-controller="Author" asp-action="Create" class="dropdown-item"> <i class="bi bi-person "></i> New Author</a>
+						</li>
+						<li><a asp-controller="Category" asp-action="Create" class="dropdown-item"> <i class="bi bi-collection"></i> New Category</a></li>
+						<li><a asp-controller="Publisher" asp-action="Create" class="dropdown-item" ><i class="bi bi-floppy"></i> New Publisher</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<p class="text-end m-0">Count of Books: @Model.Count</p>
+	</div>
+</nav>
 @if (Model.Any())
 {
-	<p>Count of Books: @Model.Count</p>
-	<div class="row row-cols-1 row-cols-md-4 g-4">
-		@foreach(var book in Model)
+
+	<div class="row row-cols-1 row-cols-md-4 g-4 mt-2">
+		@foreach (var book in Model)
 		{
-            <div class="col">
-                <div class="card d-flex flex-column justify-content-between" >
-                    <div id="carousel-@book.Id" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carousel-@book.Id" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carousel-@book.Id" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carousel-@book.Id" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="@book.ImagePath" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="@book.ImagePath" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="@book.ImagePath" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-@book.Id" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-@book.Id" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+			<div class="col">
+				<div class="card d-flex flex-column justify-content-between">
+					<div id="carousel-@book.Id" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carousel-@book.Id" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carousel-@book.Id" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carousel-@book.Id" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active" style="height:350px">
+								<img src="@book.ImagePath" class="d-block mx-auto" alt="...">
+							</div>
+							<div class="carousel-item" style="height:350px">
+								<img src="@book.ImagePath" class="d-block  mx-auto" alt="...">
+							</div>
+							<div class="carousel-item" style="height:350px">
+								<img src="@book.ImagePath" class="d-block  mx-auto" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carousel-@book.Id" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carousel-@book.Id" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
 
-                    @* <img src="@(book.ImagePath??"https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg")" class="card-img-top " style="width: 250px; height: 400px" alt="..."> *@
-            <div class="card-body">
-                        <h5 class="card-title">@book.Title</h5>
-                        <p class="card-text">
-                            @book.Author
-                            <span class="badge text-bg-primary"> grn</span>
-                        </p>
-                        <a 
-                            asp-action="Details" 
-                            asp-route-id="@book.Id"
-                            asp-route-returnUrl="@Context.Request.Path" class="btn btn-success">
-                            <i class="bi bi-info-square"></i>
-                        </a>
-                        <a 
-                            asp-action="Edit" 
-                            asp-route-id="@book.Id" class="btn btn-secondary">
-                            <i class="bi bi-pencil-square"></i>
-                        </a>
-                        <a 
-                            asp-action="Delete" 
-                            asp-route-id="@book.Id" class="btn btn-danger">
-                            <i class="bi bi-x-square"></i>
-                        </a>
+					@* <img src="@(book.ImagePath??"https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg")" class="card-img-top " style="width: 250px; height: 400px" alt="..."> *@
+					<div class="card-body text-center">
+						<h5 class="card-title text-truncate d-block">@book.Title</h5>
+				
+						<a asp-action="Details"
+						   asp-route-id="@book.Id"
+						   asp-route-returnUrl="@Context.Request.Path" class="btn btn-outline-secondary">
+							<i class="bi bi-info-square"></i>
+						</a>
+						<a asp-action="Edit"
+						   asp-route-id="@book.Id" class="btn btn-outline-secondary">
+							<i class="bi bi-pencil-square"></i>
+						</a>
+						<a asp-action="Delete"
+						   asp-route-id="@book.Id" class="btn btn-outline-danger">
+							<i class="bi bi-x-square"></i>
+						</a>
 
-                    </div>
-                </div>
-            </div>
-        }
+					</div>
+				</div>
+			</div>
+		}
 	</div>
 }
-<a asp-action="Create" class="btn btn-primary mt-4">Create new Book</a>
+
 
